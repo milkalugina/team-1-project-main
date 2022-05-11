@@ -1,0 +1,12 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+
+  <strong>Chat with <%= @other_user_name %></strong>
+</p>
+
+<div class="messages">
+  <%= render @messages %>
+</div>
+
+<%= link_to 'Back', chats_path %>
